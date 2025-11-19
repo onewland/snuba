@@ -8,6 +8,7 @@ pub struct ProcessorConfig {
     pub env_config: EnvConfig,
 }
 
+// add comment
 #[derive(Deserialize, Debug)]
 #[serde(deny_unknown_fields)]
 pub struct ConsumerConfig {
